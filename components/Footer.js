@@ -12,12 +12,13 @@ function Footer() {
               </h2>{" "}
               <nav className="list-none mb-10">
                 <li>
-                  <a
-                    href="/login/?redirect=Dashboard"
+                    <Link href="/login/?redirect=Dashboard">
+                  <a              
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Dashboard
                   </a>{" "}
+                  </Link>
                 </li>{" "}
                 
                 <li>
@@ -29,12 +30,13 @@ function Footer() {
                   </a>{" "}
                 </li>{" "}
                 <li>
+                    <Link href="/about-us">
                   <a
-                    href="/about-us"
                     className="text-gray-600 hover:text-gray-800"
                   >
                     About us
                   </a>{" "}
+                  </Link>
                 </li>{" "}
                 <li>
                   <a href="/blog" className="text-gray-600 hover:text-gray-800">
@@ -72,12 +74,13 @@ function Footer() {
               </h2>{" "}
               <nav className="list-none mb-10">
                 <li>
-                  <a
-                    href="/login"
+                    <Link href="/login">
+                  <a                   
                     className="text-gray-600 hover:text-gray-800"
                   >
                     My Account
                   </a>{" "}
+                  </Link>
                 </li>{" "}
                 <li>
                   <Link href="/contact">
@@ -88,7 +91,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/login?redirect=serverstatus"
+                    href="?redirect=serverstatus"
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Server Status
@@ -101,12 +104,13 @@ function Footer() {
               </h2>{" "}
               <nav className="list-none mb-10">
                 <li>
+                    <Link href="/login?redirect=ticket">
                   <a
-                    href="/login?redirect=ticket"
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Open a Ticket
                   </a>{" "}
+                  </Link>
                 </li>
                 <li>
                   <Link href="/contact">
@@ -123,36 +127,42 @@ function Footer() {
               </h2>{" "}
               <nav className="list-none mb-10">
                 <li>
+                    <Link href="/legal/tos">
                   <a
-                    href="/legal/tos"
+                    
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Terms of Service
                   </a>{" "}
+                  </Link>
                 </li>{" "}
+                
                 <li>
-                  <a
-                    href="/legal/aup"
+                    <Link href="/legal/aup">
+                  <a                  
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Acceptable Use Policy
                   </a>{" "}
+                  </Link>
                 </li>{" "}
                 <li>
+                    <Link href="/legal/Privacy-Policy">
                   <a
-                    href="/legal/Privacy-Policy"
                     className="text-gray-600 hover:text-gray-800"
-                  >
+                  >          
                     Privacy Policy
                   </a>{" "}
+                  </Link>
                 </li>{" "}
                 <li>
-                  <a
-                    href="/legal/Refund-Policy"
+                    <Link href="/legal/Refund-Policy">
+                  <a                  
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Refund Policy
                   </a>{" "}
+                  </Link>
                 </li>{" "}
               </nav>{" "}
             </div>{" "}
@@ -194,7 +204,7 @@ function Footer() {
               <br />
               <br />
               <br />
-              <a href="https:www.trustpilot.com/review/stackflare.net">
+              <a href="https://www.trustpilot.com/review/stackflare.net">
                 <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
                   <b>Rating</b>
                 </h2>
@@ -222,7 +232,7 @@ function Footer() {
             &nbsp;{" "}
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               <a
-                href="https:www.facebook.com/stackflare.net/"
+                href="https://www.facebook.com/stackflare.net/"
                 className="text-gray-500"
               >
                 <svg
@@ -237,7 +247,7 @@ function Footer() {
                 </svg>{" "}
               </a>{" "}
               <a
-                href="https:twitter.com/StackflareNET"
+                href="https://twitter.com/StackflareNET"
                 className="ml-3 text-gray-500"
               >
                 <svg
@@ -252,7 +262,7 @@ function Footer() {
                 </svg>{" "}
               </a>{" "}
               <a
-                href="https:www.instagram.com/stackflare_hosting/"
+                href="https://www.instagram.com/stackflare_hosting/"
                 className="ml-3 text-gray-500"
               >
                 <svg
@@ -269,7 +279,7 @@ function Footer() {
                 </svg>{" "}
               </a>{" "}
               <a
-                href="https:www.linkedin.com/company/stackflare/"
+                href="https://www.linkedin.com/company/stackflare/"
                 className="ml-3 text-gray-500"
               >
                 <svg

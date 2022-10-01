@@ -68,7 +68,7 @@ export default function Hero() {
                     <span className="block text-orange-100">with our High-end servers.</span>
                   </h1>
                   <p className="mt-6 max-w-lg mx-auto text-center text-xl text-orange-100 sm:max-w-3xl">
-                  We&apos;ve combined the best Intel Xeon and AMD EPYC CPUs, and mounted them on single or dual sockets to give you up to 64 cores - that's 128 threads at high frequency.
+                  We&apos;ve combined the best Intel Xeon and AMD EPYC CPUs, and mounted them on single or dual sockets to give you up to 64 cores - that&apos;s 128 threads at high frequency.
                   </p>
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">

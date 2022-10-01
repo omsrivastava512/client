@@ -195,9 +195,11 @@ export default function Header() {
               <a href="#Pricing" className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Pricing
               </a>
-              <a href="/login" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <Link href="/login" >
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Sign in
               </a>
+              </Link>
               <Popover>
                 {({ open }) => (
                   <>
@@ -356,14 +358,16 @@ export default function Header() {
                   Features
                 </a>
 
-                <a href="/login?redirect=ticket" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                <Link href="/login?redirect=ticket" >
+                <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
                   Support Ticket
                 </a>
-
-                <a href="/login?redirect=dashboard" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                </Link>
+                <Link href="/login?redirect=dashboard">
+                <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
                   Dashboard
                 </a>
-
+                </Link>
                 <Link href="/contact"> 
                 <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
                   Report Abuse
@@ -384,9 +388,11 @@ export default function Header() {
                 </Link>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   Existing customer?{' '}
-                  <a href="/login" className="text-orange-600 hover:text-orange-500">
+                  <Link href="/login">
+                  <a className="text-orange-600 hover:text-orange-500">
                     Sign in
                   </a>
+                  </Link>
                 </p>
               </div>
             </div>
