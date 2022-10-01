@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Footer() {
     return ( <>
     <footer className="bg-gray-200 body-font">
@@ -24,12 +26,12 @@ function Footer() {
           </li>{" "}
           <li>
             {" "}
-            <a
+            <Link
               href="/affiliates"
               className="text-gray-600 hover:text-gray-800"
             >
               Affiliates
-            </a>{" "}
+            </Link>{" "}
           </li>{" "}
           <li>
             {" "}
