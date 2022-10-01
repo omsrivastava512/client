@@ -20,12 +20,12 @@ export default function Pricing() {
           M7 Hybrid 128
           </h3>
           <p className="mt-6 text-base text-gray-500">
-          The dedicated server "M7 Hybrid 128" is equipped with an AMD Ryzen 3700X processor, has 8 cores and 16 threads, and 64GB RAM and two fast 1 TB NVMe SSD for handling high I / O workloads directly on the PCIe bus. Furthermore, the server is equipped with 2x 10 TB SATA3 HDD&apos;s. The root server is connected to the Cisco based Stackflare network with 1Gbps uplink.
+          The dedicated server &qout;M7 Hybrid 128&quot; is equipped with an AMD Ryzen 3700X processor, has 8 cores and 16 threads, and 64GB RAM and two fast 1 TB NVMe SSD for handling high I / O workloads directly on the PCIe bus. Furthermore, the server is equipped with 2x 10 TB SATA3 HDD&apos;s. The root server is connected to the Cisco based Stackflare network with 1Gbps uplink.
           </p>
           <div className="mt-8">
             <div className="flex items-center">
               <h4 className="flex-shrink-0 pr-4 text-sm font-semibold tracking-wider text-indigo-600 uppercase bg-white">
-                What's included
+                What&apos;s included
               </h4>
               <div className="flex-1 border-t-2 border-gray-200" />
             </div>
