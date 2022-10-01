@@ -82,7 +82,7 @@ export default function Feature1() {
                 Data security &amp; Privacy
               </h6>
               <p className="mb-4 text-gray-600">
-                We believe in everyone's right to privacy, and we back that with
+                We believe in everyone&apos;s right to privacy, and we back that with
                 a strong anti-spam policy and free WHOIS privacy.
               </p>
             </div>
