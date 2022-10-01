@@ -17,8 +17,9 @@ function Footer() {
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Dashboard
-                  </a>{" "}
+                  </a>
                   </Link>
+                  {" "}
                 </li>{" "}
                 
                 <li>
@@ -35,8 +36,9 @@ function Footer() {
                     className="text-gray-600 hover:text-gray-800"
                   >
                     About us
-                  </a>{" "}
+                  </a>
                   </Link>
+                  {" "}
                 </li>{" "}
                 <li>
                   <a href="/blog" className="text-gray-600 hover:text-gray-800">
@@ -79,8 +81,9 @@ function Footer() {
                     className="text-gray-600 hover:text-gray-800"
                   >
                     My Account
-                  </a>{" "}
+                  </a>
                   </Link>
+                  {" "}
                 </li>{" "}
                 <li>
                   <Link href="/contact">
@@ -109,8 +112,9 @@ function Footer() {
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Open a Ticket
-                  </a>{" "}
+                  </a>
                   </Link>
+                  {" "}
                 </li>
                 <li>
                   <Link href="/contact">
@@ -133,8 +137,9 @@ function Footer() {
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Terms of Service
-                  </a>{" "}
+                  </a>
                   </Link>
+                  {" "}
                 </li>{" "}
                 
                 <li>
@@ -143,8 +148,9 @@ function Footer() {
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Acceptable Use Policy
-                  </a>{" "}
+                  </a>
                   </Link>
+                  {" "}
                 </li>{" "}
                 <li>
                     <Link href="/legal/Privacy-Policy">
@@ -152,8 +158,9 @@ function Footer() {
                     className="text-gray-600 hover:text-gray-800"
                   >          
                     Privacy Policy
-                  </a>{" "}
+                  </a>
                   </Link>
+                  {" "}
                 </li>{" "}
                 <li>
                     <Link href="/legal/Refund-Policy">
@@ -161,8 +168,9 @@ function Footer() {
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Refund Policy
-                  </a>{" "}
+                  </a>
                   </Link>
+                  {" "}
                 </li>{" "}
               </nav>{" "}
             </div>{" "}
