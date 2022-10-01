@@ -1145,23 +1145,10 @@ function SecondWide() {
   </div>
 </div>
 
-<div className="container px-5 py-24 mx-auto flex flex-wrap">
-  <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
-    <div className="w-full sm:p-4 px-4 mb-6">
-      <h1 className="text-3xl mb-2 font-semibold leading-normal text-gray-900">
-        User-Friendly Control Panel
-      </h1>
-      <div className="leading-relaxed">
-        Our Control Panel is extremely user-friendly and can be used by those
-        with little experience in server administration. has all of the basic
-        functions that you need, such as domain and email management, DNS zone
-        editor, file and database manager etc. You can also manage your account
-        security: set up passwords for directories and Install more then 400
-        OS & Scripts in one click
-      </div>
-    </div>
-  </div>
-  <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+<div className="container px-5 mx-auto flex flex-wrap">
+
+
+<div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
       <g id="freepik--background-simple--inject-32">
         <path
@@ -2267,6 +2254,23 @@ function SecondWide() {
         />
       </g>
     </svg>
+  </div>
+
+
+  <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+    <div className="w-full sm:p-4 px-4 mb-6">
+      <h1 className="text-3xl mb-2 font-semibold leading-normal text-gray-900">
+        User-Friendly Control Panel
+      </h1>
+      <div className="leading-relaxed">
+        Our Control Panel is extremely user-friendly and can be used by those
+        with little experience in server administration. has all of the basic
+        functions that you need, such as domain and email management, DNS zone
+        editor, file and database manager etc. You can also manage your account
+        security: set up passwords for directories and Install more then 400
+        OS & Scripts in one click
+      </div>
+    </div>
   </div>
 </div>
 

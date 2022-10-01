@@ -68,21 +68,23 @@ export default function Hero() {
                     <span className="block text-orange-100">with our High-end servers.</span>
                   </h1>
                   <p className="mt-6 max-w-lg mx-auto text-center text-xl text-orange-100 sm:max-w-3xl">
-                  We&apos;ve combined the best Intel Xeon and AMD EPYC CPUs, and mounted them on single or dual sockets to give you up to 64 cores - that&apos;s 128 threads at high frequency.
+                  We&apos;ve combined the best Intel Xeon and AMD EPYC CPUs, and mounted them on single or dual sockets to give you up to 64 cores - that's 128 threads at high frequency.
                   </p>
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                      <Link
-                        href="/contact"
+                      <Link href="/contact">
+                      <a
                         className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-orange-700 bg-white hover:bg-orange-50 sm:px-8"
                       >
                         Get started
+                      </a>
                       </Link>
-                      <Link
-                        href="/login"
+                      <Link href="/login">
+                      <a                       
                         className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-orange-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                       >
                         Login
+                      </a>
                       </Link>
                     </div>
                   </div>
@@ -94,38 +96,7 @@ export default function Hero() {
           {/* Logo cloud */}
           <div className="bg-white">
             <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-              <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
-                Trusted by over 5 very average small businesses
-              </p>
-              <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img className="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img className="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-                    alt="StaticKit"
-                  />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-                    alt="Transistor"
-                  />
-                </div>
-                <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg"
-                    alt="Workcation"
-                  />
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

@@ -13,8 +13,19 @@
   ```
 */
 import { LockClosedIcon } from '@heroicons/react/solid'
+import { useState } from 'react'
+
 
 export default function Login() {
+
+
+    const [invalid, setInvalid] = useState(false);
+
+    function onsubmit(e) {
+        e.preventDefault()
+        setInvalid(true)
+    }
+
   return (
     <>
       {/*
@@ -39,7 +50,7 @@ export default function Login() {
               </a>
             </p>
           </div>
-          <form className="mt-8 space-y-6" action="#" method="POST">
+          <form className="mt-8 space-y-6" onSubmit={onsubmit} method="POST">
             <input type="hidden" name="remember" defaultValue="true" />
             <div className="-space-y-px rounded-md shadow-sm">
               <div>
@@ -71,6 +82,10 @@ export default function Login() {
                 />
               </div>
             </div>
+
+            {invalid && <p class="mt-2 text-sm text-red-600">
+                Invalid credentials
+            </p>}
 
             <div className="flex items-center justify-between">
               <div className="flex items-center">

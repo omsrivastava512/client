@@ -7,6 +7,7 @@ import Pricing from '../components/Home/Pricing'
 import styles from '../styles/Home.module.css'
 import SecondWide from '../components/Home/Features/SecondWide'
 import Footer from '../components/Footer'
+import FAQ from '../components/Home/FAQ'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     <Pricing/>
     <Feature1/>
     <SecondWide/>
+    <FAQ/>
     <Footer/>
     </>
   )

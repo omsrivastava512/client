@@ -2,7 +2,7 @@ export default function Pricing() {
 
     return (
 
-  <div id="pricing" className="container mx-auto">
+  <div name="Pricing" id="Pricing" className="container mx-auto">
   <div style={{ backgroundColor: "rgb(255, 255, 255)" }}>
     <div
       className="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8"
@@ -20,7 +20,7 @@ export default function Pricing() {
           M7 Hybrid 128
           </h3>
           <p className="mt-6 text-base text-gray-500">
-          The dedicated server &qout;M7 Hybrid 128&quot; is equipped with an AMD Ryzen 3700X processor, has 8 cores and 16 threads, and 64GB RAM and two fast 1 TB NVMe SSD for handling high I / O workloads directly on the PCIe bus. Furthermore, the server is equipped with 2x 10 TB SATA3 HDD&apos;s. The root server is connected to the Cisco based Stackflare network with 1Gbps uplink.
+          The dedicated &quot;server M7 Hybrid 128&quot; is equipped with an AMD Ryzen 3700X processor, has 8 cores and 16 threads, and 64GB RAM and two fast 1 TB NVMe SSD for handling high I / O workloads directly on the PCIe bus. Furthermore, the server is equipped with 2x 10 TB SATA3 HDD&apos;s. The root server is connected to the Cisco based Stackflare network with 1Gbps uplink.
           </p>
           <div className="mt-8">
             <div className="flex items-center">
