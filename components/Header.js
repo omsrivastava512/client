@@ -26,22 +26,22 @@ import Link from 'next/link'
 
 const solutions = [
   {
-    name: 'Analytics',
-    description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    name: 'Colocation',
+    description: 'Your own server in a our external server room.',
+    href: '/colocation',
     icon: ChartBarIcon,
   },
   {
-    name: 'Engagement',
-    description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
+    name: 'Server Administration',
+    description: 'We will take care of your IT infrastructure. Transfer tasks to our company.',
+    href: '/server_administration',
     icon: CursorClickIcon,
   },
-  { name: 'Security', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
+  { name: 'Backup Space', description: "Your customers' data will be safe and secure.", href: '/backup', icon: ShieldCheckIcon },
   {
-    name: 'Integrations',
+    name: 'Virtual Rack',
     description: "Connect with third-party tools that you're already using.",
-    href: '#',
+    href: '/virtual_rack',
     icon: ViewGridIcon,
   },
 ]
@@ -192,9 +192,11 @@ export default function Header() {
                   </>
                 )}
               </Popover>
-              <a href="#Pricing" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <Link href="/#Pricing">
+              <a className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Pricing
               </a>
+              </Link>
               <Link href="/login" >
               <a className="text-base font-medium text-gray-500 hover:text-gray-900">
                 Sign in
@@ -339,24 +341,31 @@ export default function Header() {
                       </a>
                     ))}
                   </div>
-                  <div className="mt-8 text-base">
-                    <a href="#Features" className="font-medium text-orange-600 hover:text-orange-500">
-                      {' '}
+                  <div className="mt-8 text-base">{' '}
+                    <Link href="/#Features" >
+                    <a className="font-medium text-orange-600 hover:text-orange-500">
+                      
                       Features <span aria-hidden="true">&rarr;</span>
                     </a>
+                    </Link>
                   </div>
                 </nav>
               </div>
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
-                <a href="#Pricing" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                <Link  href="/#Pricing">
+                <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
                   Pricing
                 </a>
+                </Link>
+                <Link href="/#Features" >
 
-                <a href="#Features" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
                   Features
                 </a>
+
+                </Link>
 
                 <Link href="/login?redirect=ticket" >
                 <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
@@ -374,9 +383,11 @@ export default function Header() {
                 </a>
                 </Link>
 
-                <a href="#FAQ" className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
+                <Link href="/#FAQ">
+                <a className="rounded-md text-base font-medium text-gray-900 hover:text-gray-700">
                   FAQ
                 </a>
+                </Link>
               </div>
               <div className="mt-6">
                 <Link href="/contact">

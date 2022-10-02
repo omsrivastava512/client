@@ -298,7 +298,7 @@ export default function Feature1() {
                   <i className="fas fa-fingerprint" />
                 </div>
                 <h6 className="text-xl mb-1 font-semibold">
-                  Anti Hacking Squad
+                  Anti Hack Squad
                 </h6>
                 <p className="mb-4 text-gray-600">
                   We offer secure hosting service with all security services

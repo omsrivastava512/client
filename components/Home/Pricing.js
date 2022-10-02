@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Pricing() {
 
     return (
@@ -169,13 +171,13 @@ export default function Pricing() {
           </div>
           <div className="mt-6">
             <div className="rounded-md shadow">
+              <Link href="/contact">
               <a
-                href="/contact"
                 className="flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-gray-800 border border-transparent rounded-md hover:bg-gray-900"
-                target="_blank"
               >
                 Deploy Now
               </a>
+              </Link>
             </div>
           </div>
 
