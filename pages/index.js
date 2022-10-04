@@ -24,7 +24,6 @@ export default function Home() {
     />
 
     <Header/>
-    <Header/>
     <Hero/>
     <Pricing/>
     <Feature1/>
