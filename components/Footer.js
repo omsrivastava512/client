@@ -93,12 +93,14 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/login?redirect=serverstatus">
                   <a
-                    href="?redirect=serverstatus"
                     className="text-gray-600 hover:text-gray-800"
                   >
                     Server Status
-                  </a>{" "}
+                  </a>
+                  </Link>
+                  {" "}
                 </li>
               </nav>{" "}
               <br />

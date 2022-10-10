@@ -12,7 +12,7 @@ export default function Auth() {
     <>
     <NextHeadSeo
       title="Log In"
-      description="Login to your Linode account."
+      description="Login to your stackflare dashboard."
       og={{
         title: "Stackflare - Elastic & Scalable Bare metal",
         image: "/og_hero.png",
