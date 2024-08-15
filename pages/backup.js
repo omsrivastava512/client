@@ -5,6 +5,8 @@ import { ShieldCheckIcon } from '@heroicons/react/outline'
 import Head from 'next/head'
 import Header from '../components/Header'
 import Link from 'next/link'
+import Footer from '../components/Footer'
+
 
 
 const product = {
@@ -112,6 +114,7 @@ export default function Colocation() {
         </div>
       </div>
     </div>
+    <Footer/>
     </>
   )
 }
