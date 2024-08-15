@@ -4,6 +4,7 @@ import { RadioGroup } from '@headlessui/react'
 import { ShieldCheckIcon } from '@heroicons/react/outline'
 import Head from 'next/head'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import Link from 'next/link'
 
 
@@ -134,20 +135,18 @@ export default function Colocation() {
                 </RadioGroup>
               </div>
               <div className="mt-4">
-                <a href="#" className="group inline-flex text-sm text-gray-500 hover:text-gray-700">
-                  <span>What size should I buy?</span>
+                  <span className="group inline-flex text-sm text-gray-500 hover:text-gray-700">What size should I buy?</span>
                   <QuestionMarkCircleIcon
                     className="flex-shrink-0 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
                     aria-hidden="true"
                   />
-                </a>
               </div>
               <div className="mt-10">
                 <Link href="/contact">
                 <button
                   className="w-full bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-indigo-500"
                 >
-                  Get a Qoute
+                  Get a Quote
                 </button>
                 </Link>
               </div>
@@ -165,6 +164,7 @@ export default function Colocation() {
         </div>
       </div>
     </div>
+    <Footer/>
     </>
   )
 }
